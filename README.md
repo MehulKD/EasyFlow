@@ -1,5 +1,21 @@
 EasyFlow
 ========
+
+To download release maintained by Piasy, add these to your build.gradle:
+
+```gradle
+repositories {
+    maven {
+        url  "http://dl.bintray.com/piasy/maven"
+    }
+}
+
+dependencies {
+    compile 'com.github.piasy:easyflow:1.3.2'
+}
+```
+
+
 by [DataSymphony.com.au](http://datasymphony.com.au/)
 
 EasyFlow 1.3 is out (12 Dec 2013)
